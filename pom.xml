@@ -14,6 +14,7 @@
         <module>dianmall_nacos</module>
         <module>dianmall_project_common</module>
         <module>dianmall_project_oauth2</module>
+        <module>dianmall_project_generate</module>
     </modules>
 
 	<properties>
