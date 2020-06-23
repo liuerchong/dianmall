@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
 
 /**
  * 加密类
- * @author zibin
+ * @author 
  *
  */
 public class EncryptUtil {

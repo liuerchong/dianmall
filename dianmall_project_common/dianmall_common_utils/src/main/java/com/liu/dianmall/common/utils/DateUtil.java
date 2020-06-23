@@ -16,7 +16,7 @@ import java.util.Date;
 
 /**
  * 日期工具类
- * @author zibin
+ * @author 
  */
 public class DateUtil {
 	

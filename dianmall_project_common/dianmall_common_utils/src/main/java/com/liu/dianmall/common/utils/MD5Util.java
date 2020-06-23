@@ -13,7 +13,7 @@ import java.security.MessageDigest;
 
 /**
  * md5加密工具类，带盐值
- * @author zibin
+ * @author 
  */
 public class MD5Util {
 
