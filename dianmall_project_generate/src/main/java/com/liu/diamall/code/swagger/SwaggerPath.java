@@ -3,7 +3,7 @@ package com.liu.diamall.code.swagger;
 import java.util.List;
 
 /*****
- * @Author: liu
+ * @Author: shenkunlin
  * @Date: 2019/7/23 15:11
  * @Description: com.itheima.code.util
  *  Swagger请求路径配置

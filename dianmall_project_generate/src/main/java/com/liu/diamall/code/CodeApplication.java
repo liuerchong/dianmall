@@ -1,7 +1,5 @@
 package com.liu.diamall.code;
 
-import com.liu.diamall.code.build.TemplateBuilder;
-
 /****
  * @Author:shenkunlin
  * @Description:
@@ -11,6 +9,6 @@ public class CodeApplication {
 
     public static void main(String[] args) {
         //调用该方法即可
-        TemplateBuilder.builder();
+		/* TemplateBuilder.builder(); */
     }
 }

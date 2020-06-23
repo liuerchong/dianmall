@@ -25,7 +25,7 @@ import com.liu.diamall.code.util.ModelInfo;
 import com.liu.diamall.code.util.StringUtils;
 
 /****
- * @Author:liu
+ * @Author:shenkunlin
  * @Description:模板创建
  *               有该对象调用其他对象的构建
  * @Date 2019/6/14 19:14
