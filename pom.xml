@@ -15,6 +15,9 @@
         <module>dianmall_project_common</module>
         <module>dianmall_project_oauth2</module>
         <module>dianmall_project_generate</module>
+        <module>dianmall_code_gennerate</module>
+        <module>dianmall_project_service</module>
+        <module>dianmall_project_servic_api</module>
     </modules>
 
 	<properties>
