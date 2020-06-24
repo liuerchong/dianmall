@@ -19,7 +19,7 @@ import com.liu.dianmall.user.pojo.Areas;
  * @Description:
  * @Date 2020/6/01 10:18
  *****/
-@FeignClient(name="user")
+@FeignClient(name="user_service")
 @RequestMapping("/areas")
 public interface AreasFeign {
 

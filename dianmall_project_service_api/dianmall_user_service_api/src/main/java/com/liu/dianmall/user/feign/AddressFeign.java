@@ -19,7 +19,7 @@ import com.liu.dianmall.user.pojo.Address;
  * @Description:
  * @Date 2020/6/01 10:18
  *****/
-@FeignClient(name="user")
+@FeignClient(name="user_service")
 @RequestMapping("/address")
 public interface AddressFeign {
 
@@ -30,13 +30,13 @@ public interface AddressFeign {
      * @param size
      * @return
      */
-    @PostMapping(value = "/search/{page}/{size}" )
+    @PostMapping(value = "/api/search/{page}/{size}" )
     Result<PageInfo> findPage(@RequestBody(required = false) Address address, @PathVariable  int page, @PathVariable  int size);
 
     /***
      * Address分页搜索实现
-     * @param page:当前�?
-     * @param size:每页显示多少�?
+     * @param page:当前页
+     * @param size:每页显示多少行?
      * @return
      */
     @GetMapping(value = "/search/{page}/{size}" )
