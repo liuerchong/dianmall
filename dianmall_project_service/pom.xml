@@ -9,5 +9,6 @@
   <packaging>pom</packaging>
   <modules>
         <module>dianmall__servic_user</module>
+        <module>dianmall__servic_goods</module>
     </modules>
   </project>
