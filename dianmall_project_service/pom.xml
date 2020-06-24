@@ -8,7 +8,30 @@
   <artifactId>dianmall_project_service</artifactId>
   <packaging>pom</packaging>
   <modules>
-        <module>dianmall__servic_user</module>
-        <module>dianmall__servic_goods</module>
-    </modules>
-  </project>
+  	<module>dianmall_goods_service</module>
+  	<module>dianmall_user_service</module>
+  </modules>
+  <dependencies>
+  	<!-- <dependency>
+  		<groupId>com.liu.dianmall</groupId>
+	    <artifactId>dianmall_service_api_user</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+  	</dependency> -->
+  	<dependency>
+  		<groupId>com.liu.dianmall</groupId>
+	    <artifactId>dianmall_common_bom</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.liu.dianmall</groupId>
+	    <artifactId>dianmall_common_datasourse</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.liu.dianmall</groupId>
+	    <artifactId>dianmall_common_utils</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+  	</dependency>
+  
+  </dependencies>
+</project>

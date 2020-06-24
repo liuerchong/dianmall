@@ -17,7 +17,6 @@
         <module>dianmall_project_generate</module>
         <module>dianmall_code_gennerate</module>
         <module>dianmall_project_service</module>
-        <module>dianmall_project_servic_api</module>
     </modules>
 
 	<properties>
@@ -95,19 +94,7 @@
 				<artifactId>spring-security-oauth2</artifactId>
 				<version>${security.oauth.version}</version>
 			</dependency>
-			<!--spring boot web 组件 -->
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-web</artifactId>
-				<version>${springboot.version}</version>
-				<!-- <exclusions>
-					排除tomcat依赖 ,使用underom
-					<exclusion>
-						<artifactId>spring-boot-starter-tomcat</artifactId>
-						<groupId>org.springframework.boot</groupId>
-					</exclusion>
-				</exclusions> -->
-			</dependency>
+			
 		</dependencies>
 	</dependencyManagement>
 
@@ -181,7 +168,30 @@
 		    <artifactId>disruptor</artifactId>
 		    <version>3.4.2</version>
 		</dependency>
-		
+		<!--spring boot web 组件 -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-web</artifactId>
+				 <exclusions>
+					<!-- 排除tomcat依赖 ,使用underom -->
+					<exclusion>
+						<artifactId>spring-boot-starter-tomcat</artifactId>
+						<groupId>org.springframework.boot</groupId>
+					</exclusion>
+				</exclusions> 
+			</dependency>
+			<!-- Jetty适合长连接应用，就是聊天类的长连接 -->  
+        <!-- 使用Jetty，需要在spring-boot-starter-web排除spring-boot-starter-tomcat，因为SpringBoot默认使用tomcat -->  
+        <dependency>  
+            <groupId>org.springframework.boot</groupId>  
+            <artifactId>spring-boot-starter-jetty</artifactId>  
+        </dependency>  
+        <dependency>  
+            <groupId>org.springframework.boot</groupId>  
+            <artifactId>spring-boot-starter-test</artifactId>  
+            <scope>test</scope>  
+        </dependency>  
+
 	</dependencies>
 
 	<build>
