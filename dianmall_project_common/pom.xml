@@ -11,5 +11,6 @@
   	<module>dianmall_common_bom</module>
   <module>dianmall_common_datasourse</module>
   <module>diamall_common_utils</module>
-</modules>
+  <module>dianmall_file_service</module>
+  </modules>
 </project>
