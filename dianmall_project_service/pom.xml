@@ -12,11 +12,11 @@
   	<module>dianmall_user_service</module>
   </modules>
   <dependencies>
-  	<!-- <dependency>
+  	<dependency>
   		<groupId>com.liu.dianmall</groupId>
-	    <artifactId>dianmall_service_api_user</artifactId>
+	    <artifactId>dianmall_user_service_api</artifactId>
 	    <version>1.0-SNAPSHOT</version>
-  	</dependency> -->
+  	</dependency> 
   	<dependency>
   		<groupId>com.liu.dianmall</groupId>
 	    <artifactId>dianmall_common_bom</artifactId>
